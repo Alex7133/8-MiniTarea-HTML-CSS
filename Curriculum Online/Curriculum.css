@@ -1,0 +1,108 @@
+main {
+    background-image: url(fondo2.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    overflow: scroll;
+}
+
+
+.Curriculum {
+    width: 80%;
+    max-width: 900px;
+    height: 1200px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20%;
+    border: 2px solid black;
+    display: flex; 
+    justify-content:center; 
+    align-items: center;
+}
+
+.Curriculum:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.part1{
+     height: 100%; 
+     width: 30%;
+      display: flex; 
+      justify-content: center;
+      flex-direction: column; 
+      align-items: flex-start;
+      margin: 1%;
+      padding: 3%;
+      background-color: rgb(102, 102, 102);
+}
+
+.part2{
+     height: 100%; 
+     width: 70%; 
+     display: flex; 
+     justify-content: center; 
+     flex-direction: column; 
+     align-items: flex-start;
+     margin: 1%;
+     padding: 3%;
+
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    border-color: black;
+  }
+
+.part1H3{
+    color: white;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 17px;
+}
+.knowledge{
+    display: inline-block;
+}
+.fa-android{
+    color: green;
+    margin: 1%;
+}
+
+.fa-css3{
+    color: rgb(107, 170, 230);
+    margin: 1%;
+}
+
+.fa-github{
+    color: black;
+    margin: 1%;
+}
+
+.fa-html5{
+    color: rgb(206, 82, 0);
+    margin: 1%;
+}
+
+.fa-linux{
+    color: black;
+    margin: 1%;
+}
+.foto{
+    display: flex;
+    flex-direction: column; 
+}
