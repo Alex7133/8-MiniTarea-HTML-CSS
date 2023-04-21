@@ -1,0 +1,77 @@
+@import 'variables';
+@import 'funciones';
+@import 'header';
+
+main {
+  background-image: url(fondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: $main-background;
+  overflow: scroll;
+}
+
+#kanban {
+  margin: 2%;
+  padding: 1%;
+}
+
+.column {
+  background-color: $column-background;
+  display: inline-block;
+  vertical-align: top;
+  width: 270px;
+  border-radius: 10px;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 1%;
+}
+
+.card {
+  @include card-styles;
+}
+
+.tags {
+  display: inline-block;
+  text-align: center;
+}
+
+.tag {
+  @include tag-styles;
+}
+
+.front {
+  background-color: $front-background;
+  text-align: center;
+  color: white;
+}
+
+.back {
+  background-color: $back-background;
+  text-align: center;
+  color: white;
+}
+
+.device {
+  background-color: $device-background;
+  text-align: center;
+  color: white;
+}
+
+.fa-window-close {
+  color: red;
+  height: 23px;
+  width: 23px;
+}
+
+.fa-window-close:hover {
+  cursor: default;
+  color: rgb(0, 0, 0);
+}
+
+.close {
+  margin-right: 4px;
+  text-align: right;
+}
